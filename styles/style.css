@@ -18,6 +18,7 @@ header {
   top: 0;
   z-index: 5;
   background-color: white;
+  box-shadow: 3px 3px 5px -1px rgb(107, 107, 107);
 }
 header div.logo {
   display: flex;
@@ -38,7 +39,7 @@ header nav ul {
   justify-content: space-around;
 }
 header nav ul li a {
-  color: #097709;
+  color: #07736c;
   text-decoration: none;
   font-size: 1.35rem;
 }
@@ -120,7 +121,7 @@ main section.second section.cards div.card a {
   margin: 1rem 0rem;
   text-decoration: none;
   padding: 1rem 1.5rem;
-  background-color: #3bf0e5;
+  background-color: #07736c;
   color: white;
   font-size: 1.25rem;
 }
@@ -167,6 +168,22 @@ section.links a {
 section.links a img {
   width: 8vw;
   height: 8vh;
+}
+
+/*scrollball setting*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #07736c;
 }
 
 @media screen and (max-width: 700px) {
