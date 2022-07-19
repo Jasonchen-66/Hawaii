@@ -13,6 +13,11 @@ header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: white;
 }
 header div.logo {
   display: flex;
@@ -61,7 +66,7 @@ main section.backImage button.start {
   background-color: #3bf0e5;
   padding: 0.75rem 1.5rem;
   font-size: 1.5rem;
-  color: white;
+  color: black;
   border: none;
   border-radius: 1rem;
   cursor: pointer;
@@ -150,7 +155,7 @@ footer nav ul li {
   flex-basis: 100px;
 }
 footer nav ul li a {
-  color: white;
+  color: black;
   font-weight: 600;
   text-decoration: none;
   font-size: 1.75rem;
@@ -178,7 +183,6 @@ section.links a img {
     width: 15vw;
     height: 15vw;
   }
-
   footer div.logo img {
     width: 15vw;
     height: 15vw;
